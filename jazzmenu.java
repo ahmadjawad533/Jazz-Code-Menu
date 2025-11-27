@@ -69,7 +69,6 @@ public class jazzmenu {
         sc.nextLine();
     }
 
-    /* ─────────────────────────── OPTION 1 ─────────────────────────── */
     private static void topOffers(Scanner sc) {
         while (true) {
             System.out.println("\n1️⃣  Top Offers");
@@ -580,3 +579,4 @@ public class jazzmenu {
         }
     }
 }
+
