@@ -8,7 +8,7 @@ public class jazzmenuGUI {
         SwingUtilities.invokeLater(() -> new jazzmenuGUI().mainMenu());
     }
 
-    private int parseCode(String s) {               // "3. Monthly" → 3
+    private int parseCode(String s) {               
         return Integer.parseInt(s.split("\\.")[0]);
     }
 
@@ -69,7 +69,7 @@ public class jazzmenuGUI {
                     return;
                 }
                 default ->
-                    info("Thanks for using JazzCash!");  // for null/close
+                    info("Thanks for using JazzCash!"); 
             }
         }
     }
@@ -483,3 +483,4 @@ public class jazzmenuGUI {
         }
     }
 }
+
